@@ -1,3 +1,3 @@
 basic.forever(function () {
-    basic.showNumber(input.lightLevel())
+    basic.showNumber(Math.floor(input.lightLevel() / 26))
 })
